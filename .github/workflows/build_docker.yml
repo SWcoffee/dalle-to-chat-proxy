@@ -32,7 +32,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: lanqian528/dalle2chat
+          images: swcoffee/dalle2chat
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
 
