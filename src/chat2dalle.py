@@ -38,7 +38,7 @@ def chat2dalle():
                 "role": "user"
             }
         ],
-        "model": "gpt-4-all",
+        "model": "gpt-4o",
         "stream": False
     }
 
