@@ -9,3 +9,4 @@ services:
       - '5007:5007'
     environment:
       - OPENAI_BASE_URL=https://api.example.com/v1
+      - FLASK_ENV=production
