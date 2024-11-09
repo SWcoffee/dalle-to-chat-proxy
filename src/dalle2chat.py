@@ -43,7 +43,7 @@ def dalle2chat():
 
     if "请直接返回“闲聊”" in prompt:
         payload = request.get_json()
-        payload["model"] = "gpt-3.5-turbo"
+        payload["model"] = "gpt-4o"
         response = requests.post(f"{openai_base_url}/chat/completions",
                                  headers=headers,
                                  json=payload)
